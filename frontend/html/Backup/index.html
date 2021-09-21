@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Garage</title>
+</head>
+
+<body>
+    <div class="container"></div>
+    <div class="row mt-3">
+        <div class="col-md-6">
+            <h3>Car Maintenance</h3>
+            <form class="add-car-form">
+                <div class="form-group">
+                    <label for="make">Make</label>
+                    <input type="text" class="form-control" id="make-value" placeholder="Enter vehicle make">
+                </div>
+                <div class="form-group">
+                    <label for="model">Model</label>
+                    <input type="text" class="form-control" id="model-value" placeholder="Enter vehicle model">
+                </div>
+                <div class="form-group">
+                    <label for="colour">Colour</label>
+                    <input type="text" class="form-control" id="colour-value" placeholder="Enter vehicle colour">
+                </div>
+                <div class="form-group">
+                    <label for="reg">Reg</label>
+                    <input type="text" class="form-control" id="reg-value" placeholder="Enter vehicle reg number">
+                </div>
+                <br />
+                <button type="submit" class="btn btn-primary">Add/Update Car</button>
+                <br />
+            </form>
+            <br />
+        </div>
+
+        <h3 class="lower-title">Car Inventory</h3>
+        <div class="cars-list row"></div>
+    </div>
+    <script src="/js/crud.js"></script>
+
+</body>
+
+</html>
