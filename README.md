@@ -12,6 +12,8 @@ This is the app structure you should be aiming for:
 
 Each service will require its own Dockerfile and you should write a `docker-compose.yaml` file to build/deploy the app.
 
+Begin this task by forking this repository so you make your own changes to it. You'll know you've completed it when you can add/delete cars via the browser!
+
 ### Gateway
 
 The *gateway* service is a simple NGINX reverse proxy.
